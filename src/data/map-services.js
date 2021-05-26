@@ -1,14 +1,12 @@
 export const mapServices = [
   {
-    name: "OpenStreetMap",
-    attribution:
-      '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
-    url: "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+    name: 'OpenStreetMap',
+    attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
+    url: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
   },
   {
-    name: "BlueMarble",
-    attribution: "&copy; NASA Blue Marble, image service by OpenGeo",
-    url:
-      "https://gibs-{s}.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default//EPSG3857_500m/{z}/{y}/{x}.jpeg",
+    name: 'Mapbox',
+    url: 'https://api.mapbox.com/styles/v1/dntspn/cklhwuwh00zlz17rw3zh3q0ea/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoiZG50c3BuIiwiYSI6ImNrbGk3MGkzajFzeTMyd3A3ZmQycGdvaW0ifQ.oW7JtNxIWSYnEPIvt7wjKA',
   },
 ];
+
