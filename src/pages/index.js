@@ -59,13 +59,13 @@ const IndexPage = () => {
 
       <Map {...mapSettings}>
         {letters.map(letter => {
-          const {id, location, title, text} = letter;
+          const {id, location, title, text } = letter;
           const {latitude, longitude} = location;
           const position = [latitude, longitude];
 
             return(
               <Marker key={id} position={position}>
-            <Popup> {title} {text}</Popup>
+            <Popup> {title} {text} </Popup>
               </Marker>
             )
           })}
