@@ -8,7 +8,6 @@ export default function useLetters() {
           id
           title
           text
-          image
           location {
             latitude
             longitude
