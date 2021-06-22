@@ -54,14 +54,18 @@ const IndexPage = () => {
     zoom: DEFAULT_ZOOM,
   };
 
-  // Ref: https://leafletjs.com/reference-1.7.1.html#icon
-  const parkIcon = new L.Icon({
-    iconUrl: treeMarker,
-    iconSize: [30, 30],
-    popupAnchor: [0, -15],
-    shadowUrl: markerShadow,
-    shadowAnchor: [13, 28],
-  });
+  let parkIcon;
+  // Ref for icon: https://leafletjs.com/reference-1.7.1.html#icon
+  // Ref for why build failed: https://stackoverflow.com/a/64112971
+  if (typeof window !== "undefined") {
+    parkIcon = new L.Icon({
+      iconUrl: treeMarker,
+      iconSize: [30, 30],
+      popupAnchor: [0, -15],
+      shadowUrl: markerShadow,
+      shadowAnchor: [13, 28],
+    });
+  }
 
   return (
     <Layout pageName="home">
