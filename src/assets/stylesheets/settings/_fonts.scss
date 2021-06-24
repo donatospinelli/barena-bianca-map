@@ -1,2 +1,6 @@
-$font-sans-serif: Helvetica, Arial, sans-serif;
+@import "https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700";
+@import "https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Source+Sans+Pro&display=swap";
+
+$font-sans-serif: Montserrat, sans-serif;
+
 $font-default: $font-sans-serif;

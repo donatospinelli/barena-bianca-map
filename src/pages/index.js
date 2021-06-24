@@ -60,10 +60,11 @@ const IndexPage = () => {
   if (typeof window !== "undefined") {
     parkIcon = new L.Icon({
       iconUrl: treeMarker,
-      iconSize: [30, 30],
-      popupAnchor: [0, -15],
+      iconAnchor: [20, 45],
+      iconSize: [40, 40],
+      popupAnchor: [0, -35],
       shadowUrl: markerShadow,
-      shadowAnchor: [13, 28],
+      shadowAnchor: [15, 50],
     });
   }
 
