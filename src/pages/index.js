@@ -88,7 +88,6 @@ const IndexPage = () => {
               <Popup className="request-popup">
                 <div style={popupContent}>
                   <div style={popupHead}> {title} </div>
-                  <span style={popupText}> {text} </span>
                 </div>
               </Popup>
             </Marker>
