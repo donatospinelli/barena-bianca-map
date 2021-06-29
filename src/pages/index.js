@@ -88,12 +88,6 @@ const IndexPage = () => {
               <Popup className="request-popup">
                 <div style={popupContent}>
                   <div style={popupHead}> {title} </div>
-                  <img
-                    src="https://www.cheapflights.com/news/wp-content/uploads/sites/136/2019/04/landscape1.jpg"
-                    width="500"
-                    height="320"
-                    alt="no img"
-                  />
                   <span style={popupText}> {text} </span>
                 </div>
               </Popup>
