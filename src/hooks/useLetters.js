@@ -1,4 +1,4 @@
-import { graphql, useStaticQuery } from 'gatsby';
+import { graphql, useStaticQuery } from "gatsby";
 
 export default function useLetters() {
   const { gcms = {} } = useStaticQuery(graphql`
@@ -7,6 +7,10 @@ export default function useLetters() {
         letters {
           id
           title
+          richText {
+            html
+            json
+          }
           location {
             latitude
             longitude
@@ -14,7 +18,7 @@ export default function useLetters() {
         }
       }
     }
-  ` );
+  `);
 
   let { letters } = gcms;
 
