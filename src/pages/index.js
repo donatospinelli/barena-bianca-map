@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
 import { Marker, useMap, Popup } from "react-leaflet";
 import { popupContent, popupHead, popupText } from "components/popupStyles";
@@ -11,6 +11,7 @@ import Layout from "components/Layout";
 import Container from "components/Container";
 import Map from "components/Map";
 import Snippet from "components/Snippet";
+import LetterPopup from "components/LetterPopup";
 
 import { useLetters } from "hooks";
 
@@ -47,6 +48,7 @@ const MapEffect = ({ markerRef }) => {
 
 const IndexPage = () => {
   const { letters } = useLetters();
+  const [selectedLetter, setSelectedLetter] = useState(null);
 
   const mapSettings = {
     center: CENTER,
@@ -76,7 +78,7 @@ const IndexPage = () => {
 
       <Map {...mapSettings}>
         {letters.map((letter) => {
-          const { id, location, title, text } = letter;
+          const { id, location } = letter;
           const { latitude, longitude } = location;
           const position = [latitude, longitude];
 
@@ -84,16 +86,19 @@ const IndexPage = () => {
             // basically Marker is react component for L.marker
             // so it has the properties (options) of L.marker
             // https://leafletjs.com/reference-1.7.1.html#marker-option
-            <Marker key={id} position={position} icon={parkIcon}>
-              <Popup className="request-popup">
-                <div style={popupContent}>
-                  <div style={popupHead}> {title} </div>
-                </div>
-              </Popup>
-            </Marker>
+            <Marker
+              key={id}
+              position={position}
+              icon={parkIcon}
+              eventHandlers={{
+                click: () => setSelectedLetter(letter),
+              }}
+            ></Marker>
           );
         })}
       </Map>
+
+      <LetterPopup letter={selectedLetter} setLetter={setSelectedLetter} />
     </Layout>
   );
 };
