@@ -1,20 +1,24 @@
 header {
   width: 100%;
   color: $white;
-  background-color: $gatsby-purple;
+  background-color: transparent;
   font-family: DM Sans;
   font-weight: 400;
 
   .container {
+    position: absolute;
+    z-index: 999999;
     display: flex;
     justify-content: space-between;
-    height: 2.5em;
     line-height: 2.5em;
   }
 
   ul,
   li,
   a {
+    font-size: 1.1rem;
+    background-color: rgb(165, 0, 165);
+    border-radius: 20px;
     display: flex;
     align-items: center;
   }
@@ -27,13 +31,15 @@ header {
   }
 
   a {
-    color: lighten($gatsby-purple, 50);
+    box-shadow: 0 0 50px rgba(242, 0, 242, 0.9);
+    -webkit-box-shadow: 0 0 50px rgba(242, 0, 242, 0.9);
+    -moz-box-shadow: 0 0 50px rgba(242, 0, 242, 0.9);
+    color: whitesmoke;
     text-decoration: none;
-    padding: 0 0.5em;
+    padding: 0 1em;
   }
 
   p {
-    font-size: 1.2em;
     font-weight: 500;
     margin: 0;
   }

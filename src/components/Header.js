@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "gatsby";
-import { FaGithub } from "react-icons/fa";
 
 import { useSiteMetadata } from "hooks";
 
@@ -13,7 +12,7 @@ const Header = () => {
     <header>
       <Container type="content">
         <p>
-          <Link to="/">{companyName}</Link>
+          <Link to="/">How is there? Here...</Link>
         </p>
         <ul>
           <li>

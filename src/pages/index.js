@@ -73,7 +73,7 @@ const IndexPage = () => {
   return (
     <Layout pageName="home">
       <Helmet>
-        <title>Barena Bianca Map</title>
+        <title>How is there? Here...</title>
       </Helmet>
 
       <Map {...mapSettings}>
