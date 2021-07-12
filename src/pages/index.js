@@ -20,7 +20,7 @@ const LOCATION = {
   lng: 0,
 };
 const CENTER = [LOCATION.lat, LOCATION.lng];
-const DEFAULT_ZOOM = 2.5;
+const DEFAULT_ZOOM = 2.3;
 
 /**
 const popupContentGatsby = `
@@ -63,7 +63,7 @@ const IndexPage = () => {
     parkIcon = new L.Icon({
       iconUrl: treeMarker,
       iconAnchor: [20, 45],
-      iconSize: [40, 40],
+      iconSize: [32, 32],
       popupAnchor: [0, -35],
       shadowUrl: markerShadow,
       shadowAnchor: [15, 50],
