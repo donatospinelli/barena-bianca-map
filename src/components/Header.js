@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <header>
       <Container type="content">
-          <Link to="/">How is there? Here...</Link>
+          <Link to="/">How is it there? Here...</Link>
         <ul>
           <li>
             <Link to="/about/">About</Link>

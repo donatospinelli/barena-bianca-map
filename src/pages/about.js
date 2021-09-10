@@ -22,7 +22,7 @@ const SecondPage = () => {
       </Helmet>
       <Container type="content">
         <h1>About</h1>
-        <h2>How is there? Here...</h2>
+        <h2>How is it there? Here...</h2>
         <p> Part of WE ARE OCEAN global programme curated, commissioned and produced by ARTPORT_making waves </p>
 <br></br>
         <p>“How is it there? Here…” is a critical geography workshop for the kids of Venice and for anyone around the world coexisting with similar issues, such as environmental degradation of wetlands and growing pollution levels in both the air and the water, coastal erosion, subsidence and increasingly devastating floods. This is an invitation to care about each other, to think of our planet from the perspective of common threats and the potential to share solutions, rather than divide it into tiny clusters that compete with each other. <br></br><br></br> This interactive map, developed by Barena Bianca and digital artist Donato Spinelli, gathers all the contributions, thoughts and images sent to Venice from the world and the other way around, creating an ever-expanding and accessible network of friendship and solidarity.
