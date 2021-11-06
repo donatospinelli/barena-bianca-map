@@ -30,7 +30,7 @@ const SecondPage = () => {
 The project is part of the venetian iteration of global project WE ARE OCEAN, commissioned and produced by ARTPORT_making waves with scientific support from We are here Venice and in collaboration with TBA21–Academy.</p>
         <br></br>
         <p>
-          <a>Find out how to contribute to the map here! -> </a> <a href="https://www.barenabianca.earth/en/how-is-it-there-here-2/"> https://www.barenabianca.earth/en/how-is-it-there-here-2/ </a>
+          <a>Find out how to contribute to the map here! </a> <a href="https://www.barenabianca.earth/en/how-is-it-there-here-2/"> https://www.barenabianca.earth/en/how-is-it-there-here-2/ </a>
           </p>
         <h2>a project by</h2>
         <p>
@@ -41,7 +41,7 @@ The project is part of the venetian iteration of global project WE ARE OCEAN, co
         <p>
           <a href="https://artport-project.org/">ARTPORT_making waves</a><br></br>
           <a href="https://www.weareherevenice.org/">We are here Venice</a><br></br>
-          <a href="https://www.ocean-space.org/">Ocean Space</a> <br></br>
+          <a href="https://www.ocean-space.org/">Ocean Space</a><br></br>
           <a href="https://www.tba21.org/#item--academy--1819">TBA 21-Academy</a><br></br>
         </p>
       </Container>
