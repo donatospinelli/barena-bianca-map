@@ -33,21 +33,21 @@ The project is part of the venetian iteration of global project WE ARE OCEAN, co
           </p>
         <h2>a project by</h2>
         <p>
-            <a class="link" href="https://www.barenabianca.earth/"><span class="wavy" data-content="Barena Bianca">Barena Bianca</span></a>
+            <a class="link" href="https://www.barenabianca.earth/"><span class="wavy" data-content="&nbsp;Barena Bianca&nbsp;">&nbsp;Barena Bianca&nbsp;</span></a>
 <a>&nbsp;and&nbsp;</a>
-          <a class="link" href="#"><span class="wavy" data-content="Donato Spinelli">Donato Spinelli</span></a>
+          <a class="link" href="#"><span class="wavy" data-content="&nbsp;Donato Spinelli&nbsp;">&nbsp;Donato Spinelli&nbsp;</span></a>
         </p>
          
         <h2>supported by</h2>
         <p>
 
-         <a class="link" href="https://artport-project.org/"><span class="wavy" data-content="ARTPORT_making waves">ARTPORT_making waves</span></a><br></br>
+         <a class="link" href="https://artport-project.org/"><span class="wavy" data-content="&nbsp;ARTPORT_making waves&nbsp;">&nbsp;ARTPORT_making waves&nbsp;</span></a><br></br>
 
-          <a class="link" href="https://www.weareherevenice.org/"><span class="wavy" data-content="We are here Venice">We are here Venice</span></a><br></br>
+          <a class="link" href="https://www.weareherevenice.org/"><span class="wavy" data-content="&nbsp;We are here Venice&nbsp;">&nbsp;We are here Venice&nbsp;</span></a><br></br>
 
-          <a class="link" href="https://www.ocean-space.org/"><span class="wavy" data-content="Ocean Space">Ocean Space</span></a><br></br>
+          <a class="link" href="https://www.ocean-space.org/"><span class="wavy" data-content="&nbsp;Ocean Space&nbsp;">&nbsp;Ocean Space&nbsp;</span></a><br></br>
 
-          <a class="link" href="https://www.tba21.org/#item--academy--1819"><span class="wavy" data-content="TBA 21-Academy">TBA 21-Academy</span></a><br></br>
+          <a class="link" href="https://www.tba21.org/#item--academy--1819"><span class="wavy" data-content="&nbsp;TBA 21-Academy&nbsp;">&nbsp;TBA 21-Academy&nbsp;</span></a><br></br>
 
         </p>
       </Container>
