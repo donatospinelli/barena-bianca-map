@@ -35,7 +35,7 @@ The project is part of the venetian iteration of global project WE ARE OCEAN, co
         <p>
             <a class="link" href="https://www.barenabianca.earth/"><span class="wavy" data-content="&nbsp;Barena Bianca&nbsp;">&nbsp;Barena Bianca&nbsp;</span></a>
 <a>&nbsp;and&nbsp;</a>
-          <a class="link" href="#"><span class="wavy" data-content="&nbsp;Donato Spinelli&nbsp;">&nbsp;Donato Spinelli&nbsp;</span></a>
+          <a class="link" href="https://donatospinelli.com/"><span class="wavy" data-content="&nbsp;Donato Spinelli&nbsp;">&nbsp;Donato Spinelli&nbsp;</span></a>
         </p>
          
         <h2>supported by</h2>
